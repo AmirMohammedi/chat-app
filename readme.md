@@ -27,7 +27,7 @@ To start the app, open the `index.html` file in your browser.
 ### Schema Setup
 Ensure that the following collections are set up in PocketBase:
 - **Users**: For user authentication and registration.
-- **Chats**: For storing messages and related chat data.
+- **Messages**: For storing messages and related chat data.
 
 You can import the schema files by navigating to your PocketBase admin dashboard and importing the relevant JSON files.
 
