@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat</title>
+    <link rel="stylesheet" href="styles/chat.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Chat Room</h1>
+        <p>Logged in as: <strong id="userEmailDisplay"></strong></p>
+        <button class="loggedoutbtn" onclick="logout()">Logout</button>
+        <div id="messages"></div>
+        <form id="chatForm">
+            <input type="email" id="receiverEmail" name="receiverEmail" placeholder="Receiver's Email" required>
+            <input type="text" id="message" name="message" placeholder="Enter your message" required>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </div>
+
+    <script src="scripts/chat/auth.js"></script>
+    <script src="scripts/chat/chat.js"></script>
+    <script src="scripts/chat/realtime.js"></script>
+</body>
+
+</html>
